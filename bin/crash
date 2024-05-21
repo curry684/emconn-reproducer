@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+cd $(dirname $0)/..
+
+bin/console messenger:setup-transports
+bin/console crash
+bin/console messenger:consume async -vv
