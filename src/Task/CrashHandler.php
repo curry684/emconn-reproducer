@@ -2,7 +2,6 @@
 
 namespace App\Task;
 
-use App\Entity\Foo;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Messenger\Attribute\AsMessageHandler;
 use Symfony\Component\Messenger\Exception\RecoverableMessageHandlingException;

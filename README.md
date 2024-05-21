@@ -6,5 +6,8 @@ Reproduces Symfony issue https://github.com/symfony/symfony/issues/54228
 git clone git@github.com:curry684/emconn-reproducer.git
 cd emconn-reproducer
 composer i
+```
+To enjoy the fireworks:
+```sh
 bin/crash
 ```
